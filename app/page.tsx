@@ -1,9 +1,10 @@
-import styles from '../styles/Home.module.css'
+import React from 'react'
+import '../styles/dist.css'
 
 export default function HomePage() {
   return (
-    <div className={styles.container}>
-      <h1 className="text-3xl font-bold">Flash</h1>
+    <div>
+      <p className="text-3xl font-bold underline">Flash</p>
     </div>
   )
 }

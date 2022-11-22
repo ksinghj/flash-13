@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/globals.css'
+import '../styles/dist.css'
 
 export default function RootLayout({
   children,
@@ -8,9 +8,9 @@ export default function RootLayout({
 }) {
   return (
     <html>
-      <head></head>
+      <head />
       <body>
-        <nav>
+        <nav className="hidden lg:flex">
           <div>Logo</div>
           <div>Home</div>
           <div>Create Deck</div>
