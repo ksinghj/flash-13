@@ -3,13 +3,6 @@ export default function Head() {
     <>
       <title>Flash - Flashcards</title>
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-      {/* fonts */}
-      {/* <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" />
-      <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200;400;600&display=swap"
-        rel="stylesheet"
-      /> */}
       {/* Favicons */}
       <link
         rel="apple-touch-icon"
